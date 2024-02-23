@@ -1,0 +1,49 @@
+#experience {
+    background-color: #a8d1ff;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 2px;
+}
+#languages {
+    background-color: #a8d1ff;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 2px;
+}
+#education {
+    background-color: #a8d1ff;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 2px;
+}
+#skills {
+    background-color: #a8d1ff;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+
+@media screen and (min-width:1000px){
+    .container {
+        display: grid;
+      grid-template-columns:
+        1fr 1fr 1fr;
+      grid-template-areas:
+        "header     header     header"
+        "Experience Experience Education"
+        "Languages  Skills     Skills";
+    }
+    #experience {
+        grid-area: Experience;
+    }
+    #languages {
+        grid-area: Languages;
+    }
+    #education {
+        grid-area: Education;
+    }
+    #skills {
+        grid-area: Skills;
+    }
+}
