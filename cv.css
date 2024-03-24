@@ -35,6 +35,12 @@ p {
     padding-left: 10px;
 }
 
+.langlist {
+    /* font-size: 1em; */
+    font-style: normal;
+}
+
+
 @media screen and (min-width:1000px){
     .container {
         display: grid;
